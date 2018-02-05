@@ -24,11 +24,11 @@
 
 // implementing wut
 
-int Encode(){
+void Encode(){
 }//Encode
-int GetDisplayWidth(){
+void GetDisplayWidth(){
 }//GetDisplayWidth
-int Decode(){
+void Decode(){
 }//Decode
 
 // end of implementation

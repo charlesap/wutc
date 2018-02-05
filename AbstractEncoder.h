@@ -22,6 +22,6 @@
 // 
 
 
-int Encode();
-int GetDisplayWidth();
-int Decode();
+void Encode();
+void GetDisplayWidth();
+void Decode();
