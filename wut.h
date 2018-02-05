@@ -37,3 +37,5 @@
 #include "ScalarEncoder.h"
 #include "ScalarSpaceEncoder.h"
 #include "SparsePassThroughEncoder.h"
+
+void Initialize();

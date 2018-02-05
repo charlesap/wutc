@@ -24,4 +24,11 @@
 
 // implementing wut
 
+int Encode(){
+}//Encode
+int GetDisplayWidth(){
+}//GetDisplayWidth
+int Decode(){
+}//Decode
+
 // end of implementation

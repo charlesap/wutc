@@ -24,8 +24,7 @@
 
 // implementing wut
 
-void Initialize(void){
-
-}
+void Initialize(){
+}//Initialize
 
 // end of implementation
