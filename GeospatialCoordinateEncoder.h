@@ -22,7 +22,11 @@
 // 
 
 
-struct GeospatialCoordinateEncoder {
+#ifndef _GeospatialCoordinateEncoder_
+#define _GeospatialCoordinateEncoder_
+typedef struct {
     int w;
     int n;
-};
+} GeospatialCoordinateEncoder;
+#endif
+

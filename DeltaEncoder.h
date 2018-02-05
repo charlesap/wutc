@@ -22,7 +22,11 @@
 // 
 
 
-struct DeltaEncoder {
+#ifndef _DeltaEncoder_
+#define _DeltaEncoder_
+typedef struct {
     int w;
     int n;
-};
+} DeltaEncoder;
+#endif
+

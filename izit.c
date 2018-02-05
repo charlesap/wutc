@@ -30,7 +30,7 @@
 
 void  main(void){
 
-  Initialize()
-  printf("izit version 0.0.0")
+  Initialize();
+  printf("izit version 0.0.0");
 
 }

@@ -22,7 +22,11 @@
 // 
 
 
-struct DateEncoder {
+#include "ScalarEncoder.h"
+
+#ifndef _DateEncoder_
+#define _DateEncoder_
+typedef struct {
     int w;
     int n;
     int season;
@@ -31,8 +35,8 @@ struct DateEncoder {
     int holiday;
     int timeOfDay;
     int customDays;
-    string name;
-    Bool forced;
+    char * name;
+    int forced;
     ScalarEncoder sE;
     int sEo;
     ScalarEncoder dE;
@@ -45,4 +49,6 @@ struct DateEncoder {
     int tEo;
     ScalarEncoder cE;
     int cEo;
-};
+} DateEncoder;
+#endif
+

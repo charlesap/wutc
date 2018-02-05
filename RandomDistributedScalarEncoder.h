@@ -22,7 +22,9 @@
 // 
 
 
-struct RandomDistributedScalarEncoder {
+#ifndef _RandomDistributedScalarEncoder_
+#define _RandomDistributedScalarEncoder_
+typedef struct {
     int w;
     int n;
     int minIndex;
@@ -30,11 +32,13 @@ struct RandomDistributedScalarEncoder {
     float offset;
     int oidx;
     float resolution;
-    string name;
+    char * name;
     int verbosity;
     int maxoverlap;
     int random;
     int bucketmap;
     int numTries;
     int maxBuckets;
-};
+} RandomDistributedScalarEncoder;
+#endif
+

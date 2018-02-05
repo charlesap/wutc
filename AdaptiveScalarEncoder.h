@@ -22,7 +22,11 @@
 // 
 
 
-struct AdaptiveScalarEncoder {
+#ifndef _AdaptiveScalarEncoder_
+#define _AdaptiveScalarEncoder_
+typedef struct {
     int w;
     int n;
-};
+} AdaptiveScalarEncoder;
+#endif
+

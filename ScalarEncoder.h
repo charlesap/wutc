@@ -22,18 +22,22 @@
 // 
 
 
-struct ScalarEncoder {
+#ifndef _ScalarEncoder_
+#define _ScalarEncoder_
+typedef struct {
     int w;
     int n;
     float minval;
     float maxval;
-    Bool periodic;
+    int periodic;
     float radius;
     float resolution;
-    string name;
+    char * name;
     int verbosity;
-    Bool clipInput;
-    Bool forced;
+    int clipInput;
+    int forced;
     int padding;
     float srange;
-};
+} ScalarEncoder;
+#endif
+

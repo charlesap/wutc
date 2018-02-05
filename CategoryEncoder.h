@@ -22,9 +22,15 @@
 // 
 
 
-struct CategoryEncoder {
+#include "ScalarEncoder.h"
+
+#ifndef _CategoryEncoder_
+#define _CategoryEncoder_
+typedef struct {
     int w;
     int n;
     int cL;
     ScalarEncoder sE;
-};
+} CategoryEncoder;
+#endif
+

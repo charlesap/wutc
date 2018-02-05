@@ -22,7 +22,11 @@
 // 
 
 
-struct ScalarSpaceEncoder {
+#ifndef _ScalarSpaceEncoder_
+#define _ScalarSpaceEncoder_
+typedef struct {
     int w;
     int n;
-};
+} ScalarSpaceEncoder;
+#endif
+

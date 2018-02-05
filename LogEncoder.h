@@ -22,7 +22,11 @@
 // 
 
 
-struct LogEncoder {
+#ifndef _LogEncoder_
+#define _LogEncoder_
+typedef struct {
     int w;
     int n;
-};
+} LogEncoder;
+#endif
+

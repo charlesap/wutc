@@ -22,7 +22,11 @@
 // 
 
 
-struct SDRCategoryEncoder {
+#ifndef _SDRCategoryEncoder_
+#define _SDRCategoryEncoder_
+typedef struct {
     int w;
     int n;
-};
+} SDRCategoryEncoder;
+#endif
+
