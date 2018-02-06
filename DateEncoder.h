@@ -22,10 +22,11 @@
 // 
 
 
+#ifndef _wut_
+#define _wut_
+
 #include "ScalarEncoder.h"
 
-#ifndef _DateEncoder_
-#define _DateEncoder_
 typedef struct {
     int w;
     int n;
@@ -50,5 +51,5 @@ typedef struct {
     ScalarEncoder cE;
     int cEo;
 } DateEncoder;
-#endif
 
+#endif

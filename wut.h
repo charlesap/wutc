@@ -22,6 +22,9 @@
 // 
 
 
+#ifndef _wut_
+#define _wut_
+
 #include "AbstractEncoder.h"
 #include "AdaptiveScalarEncoder.h"
 #include "CategoryEncoder.h"
@@ -39,3 +42,5 @@
 #include "SparsePassThroughEncoder.h"
 
 void Initialize();
+
+#endif

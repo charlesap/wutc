@@ -22,6 +22,11 @@
 // 
 
 
+#ifndef _wut_
+#define _wut_
+
 void Encode();
 void GetDisplayWidth();
 void Decode();
+
+#endif

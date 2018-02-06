@@ -22,8 +22,9 @@
 // 
 
 
-#ifndef _RandomDistributedScalarEncoder_
-#define _RandomDistributedScalarEncoder_
+#ifndef _wut_
+#define _wut_
+
 typedef struct {
     int w;
     int n;
@@ -40,5 +41,5 @@ typedef struct {
     int numTries;
     int maxBuckets;
 } RandomDistributedScalarEncoder;
-#endif
 
+#endif

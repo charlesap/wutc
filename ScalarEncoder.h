@@ -22,8 +22,9 @@
 // 
 
 
-#ifndef _ScalarEncoder_
-#define _ScalarEncoder_
+#ifndef _wut_
+#define _wut_
+
 typedef struct {
     int w;
     int n;
@@ -39,5 +40,5 @@ typedef struct {
     int padding;
     float srange;
 } ScalarEncoder;
-#endif
 
+#endif

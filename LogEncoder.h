@@ -22,11 +22,12 @@
 // 
 
 
-#ifndef _LogEncoder_
-#define _LogEncoder_
+#ifndef _wut_
+#define _wut_
+
 typedef struct {
     int w;
     int n;
 } LogEncoder;
-#endif
 
+#endif

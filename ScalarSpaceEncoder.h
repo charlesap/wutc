@@ -22,11 +22,12 @@
 // 
 
 
-#ifndef _ScalarSpaceEncoder_
-#define _ScalarSpaceEncoder_
+#ifndef _wut_
+#define _wut_
+
 typedef struct {
     int w;
     int n;
 } ScalarSpaceEncoder;
-#endif
 
+#endif

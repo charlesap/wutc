@@ -22,11 +22,12 @@
 // 
 
 
-#ifndef _SparsePassThroughEncoder_
-#define _SparsePassThroughEncoder_
+#ifndef _wut_
+#define _wut_
+
 typedef struct {
     int w;
     int n;
 } SparsePassThroughEncoder;
-#endif
 
+#endif

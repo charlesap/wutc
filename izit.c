@@ -31,6 +31,6 @@
 void  main(void){
 
   Initialize();
-  printf("izit version 0.0.0");
+  printf("izit version 0.0.0\n");
 
 }

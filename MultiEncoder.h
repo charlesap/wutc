@@ -22,11 +22,12 @@
 // 
 
 
-#ifndef _MultiEncoder_
-#define _MultiEncoder_
+#ifndef _wut_
+#define _wut_
+
 typedef struct {
     int w;
     int n;
 } MultiEncoder;
-#endif
 
+#endif

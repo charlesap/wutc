@@ -22,11 +22,12 @@
 // 
 
 
-#ifndef _DeltaEncoder_
-#define _DeltaEncoder_
+#ifndef _wut_
+#define _wut_
+
 typedef struct {
     int w;
     int n;
 } DeltaEncoder;
-#endif
 
+#endif

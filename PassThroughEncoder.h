@@ -22,11 +22,12 @@
 // 
 
 
-#ifndef _PassThroughEncoder_
-#define _PassThroughEncoder_
+#ifndef _wut_
+#define _wut_
+
 typedef struct {
     int w;
     int n;
 } PassThroughEncoder;
-#endif
 
+#endif

@@ -22,11 +22,12 @@
 // 
 
 
-#ifndef _AdaptiveScalarEncoder_
-#define _AdaptiveScalarEncoder_
+#ifndef _wut_
+#define _wut_
+
 typedef struct {
     int w;
     int n;
 } AdaptiveScalarEncoder;
-#endif
 
+#endif
