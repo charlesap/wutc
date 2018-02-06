@@ -22,8 +22,8 @@
 // 
 
 
-#ifndef _wut_
-#define _wut_
+#ifndef _SparsePassThroughEncoder_
+#define _SparsePassThroughEncoder_
 
 typedef struct {
     int w;

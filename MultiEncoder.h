@@ -22,8 +22,8 @@
 // 
 
 
-#ifndef _wut_
-#define _wut_
+#ifndef _MultiEncoder_
+#define _MultiEncoder_
 
 typedef struct {
     int w;

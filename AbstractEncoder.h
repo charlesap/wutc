@@ -22,8 +22,8 @@
 // 
 
 
-#ifndef _wut_
-#define _wut_
+#ifndef _AbstractEncoder_
+#define _AbstractEncoder_
 
 void Encode();
 void GetDisplayWidth();

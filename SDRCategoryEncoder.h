@@ -22,8 +22,8 @@
 // 
 
 
-#ifndef _wut_
-#define _wut_
+#ifndef _SDRCategoryEncoder_
+#define _SDRCategoryEncoder_
 
 typedef struct {
     int w;

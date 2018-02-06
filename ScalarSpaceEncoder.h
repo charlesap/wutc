@@ -22,8 +22,8 @@
 // 
 
 
-#ifndef _wut_
-#define _wut_
+#ifndef _ScalarSpaceEncoder_
+#define _ScalarSpaceEncoder_
 
 typedef struct {
     int w;

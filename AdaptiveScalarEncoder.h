@@ -22,8 +22,8 @@
 // 
 
 
-#ifndef _wut_
-#define _wut_
+#ifndef _AdaptiveScalarEncoder_
+#define _AdaptiveScalarEncoder_
 
 typedef struct {
     int w;

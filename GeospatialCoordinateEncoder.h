@@ -22,8 +22,8 @@
 // 
 
 
-#ifndef _wut_
-#define _wut_
+#ifndef _GeospatialCoordinateEncoder_
+#define _GeospatialCoordinateEncoder_
 
 typedef struct {
     int w;

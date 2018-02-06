@@ -22,8 +22,8 @@
 // 
 
 
-#ifndef _wut_
-#define _wut_
+#ifndef _CategoryEncoder_
+#define _CategoryEncoder_
 
 #include "ScalarEncoder.h"
 

@@ -22,8 +22,8 @@
 // 
 
 
-#ifndef _wut_
-#define _wut_
+#ifndef _DateEncoder_
+#define _DateEncoder_
 
 #include "ScalarEncoder.h"
 
